@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { CheckCircle, ChevronRight, BarChart3, Recycle, Factory } from 'lucide-react';
 import Link from 'next/link';
 import type { JSX } from 'react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home(): JSX.Element {
   return (
